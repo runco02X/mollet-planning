@@ -16,7 +16,7 @@ export default function Hero() {
           <h1 className="text-5xl font-bold leading-tight mb-6">
             Votre Assistant financier Mobile Money,{" "}
             <span className="text-gradient">
-              À Tout Moment, Partout, Même Sans Connexion
+              À Tout Moment, Partout et Même Sans Connexion
             </span>
           </h1>
           <p className="text-xl text-gray-600 mb-8">
