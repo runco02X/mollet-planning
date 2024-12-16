@@ -17,10 +17,13 @@ export default function Header() {
 
           <span className="text-2xl font-bold text-coral">Mollet</span>
         </div>
-        <a href="https://chat.whatsapp.com/Fp2VJTl2BzMCrdQrG3VU25">
+        <a
+          href="https://chat.whatsapp.com/Fp2VJTl2BzMCrdQrG3VU25"
+          target="_blank"
+        >
           <button className="btn-primary">
             <Play className="w-5 h-5" />
-            Bientôt sur le PlayStore
+            Bientôt sur Android
           </button>
         </a>
       </nav>
