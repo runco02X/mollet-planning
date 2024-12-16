@@ -1,4 +1,5 @@
-import { Wallet, Twitter, Linkedin } from "lucide-react";
+import { Mail, Twitter } from "lucide-react";
+import MolletIcon from "../assets/mollet-icon.svg";
 
 export default function Footer() {
   return (
@@ -7,8 +8,8 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <Wallet className="w-8 h-8 text-gold" />
-              <span className="text-2xl font-bold">Mollet</span>
+              <img src={MolletIcon} className="w-8 h-8" />
+              <span className="text-2xl font-bold text-coral">Mollet</span>
             </div>
             <p className="text-gray-600">
               Votre compagnon de confiance pour la gestion d'argent mobile.
@@ -28,7 +29,10 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gold">
+                <a
+                  href="https://elikemmedehou.notion.site/Mollet-FAQ-15e2a95032fd8020b1b7c38941d4e13c?pvs=4"
+                  className="hover:text-gold"
+                >
                   FAQ
                 </a>
               </li>
@@ -38,12 +42,18 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Légal</h4>
             <ul className="space-y-2 text-gray-600">
               <li>
-                <a href="#" className="hover:text-gold">
+                <a
+                  href="https://elikemmedehou.notion.site/Politique-de-Confidentialit-de-l-application-mobile-Mollet-13b2a95032fd80b6a320e9ca3ccbe02b?pvs=4"
+                  className="hover:text-gold"
+                >
                   Politique de Confidentialité
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gold">
+                <a
+                  href="https://elikemmedehou.notion.site/Politique-de-Confidentialit-de-l-application-mobile-Mollet-13b2a95032fd80b6a320e9ca3ccbe02b?pvs=4"
+                  className="hover:text-gold"
+                >
                   Conditions d'Utilisation
                 </a>
               </li>
@@ -52,11 +62,18 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Connexion</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-600 hover:text-gold">
+              <a
+                href="https://x.com/Mollet_app"
+                className="text-gray-600 hover:text-gold"
+              >
                 <Twitter className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-gold">
-                <Linkedin className="w-6 h-6" />
+              <a
+                href="mailto:heymollet@gmail.com"
+                target="_blank"
+                className="text-gray-600 hover:text-gold"
+              >
+                <Mail className="w-6 h-6" />
               </a>
             </div>
           </div>

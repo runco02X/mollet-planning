@@ -1,5 +1,4 @@
-import React from 'react';
-import { Github, Twitter, Linkedin } from 'lucide-react';
+import { Twitter } from "lucide-react";
 
 export default function About() {
   return (
@@ -8,23 +7,17 @@ export default function About() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">À Propos de Mollet</h2>
           <p className="text-xl text-gray-600 mb-8">
-            Créé par Elikem Medehou, Mollet est né d'une vision visant à simplifier la gestion 
-            de l'argent mobile pour tous au Bénin. Fort d'une expérience approfondie dans le 
-            développement d'applications mobiles, nous nous engageons à rendre le suivi financier 
-            accessible et efficace.
+            Mollet est né d'une vision visant à simplifier la gestion de
+            l'argent mobile pour tous en Afrique.
           </p>
           <div className="flex justify-center gap-4">
-            <a href="#" className="btn-secondary">
-              <Github className="w-5 h-5" />
-              GitHub
-            </a>
-            <a href="#" className="btn-secondary">
+            <a
+              href="https://x.com/Mollet_app"
+              target="_blank"
+              className="btn-secondary"
+            >
               <Twitter className="w-5 h-5" />
               Twitter
-            </a>
-            <a href="#" className="btn-secondary">
-              <Linkedin className="w-5 h-5" />
-              LinkedIn
             </a>
           </div>
         </div>

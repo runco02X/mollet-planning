@@ -1,34 +1,36 @@
-import React from 'react';
-import { History, PieChart, Wifi } from 'lucide-react';
+import { History, PieChart, Wifi } from "lucide-react";
 
 const features = [
   {
     icon: <History className="w-6 h-6" />,
     title: "Historique des Transactions",
-    description: "Synchronisez et consultez automatiquement les transactions MTN Benin Momo depuis les SMS"
+    description:
+      "Synchronisez et consultez automatiquement les transactions MTN Benin Momo depuis les SMS",
   },
   {
     icon: <PieChart className="w-6 h-6" />,
     title: "Résumés Intelligents",
-    description: "Obtenez des aperçus détaillés hebdomadaires et mensuels de vos dépenses"
+    description:
+      "Obtenez des aperçus détaillés hebdomadaires et mensuels de vos dépenses",
   },
   {
     icon: <Wifi className="w-6 h-6" />,
     title: "Accès Hors Ligne",
-    description: "Accédez à toutes les fonctionnalités sans connexion internet"
-  }
+    description: "Accédez à toutes les fonctionnalités sans connexion internet",
+  },
 ];
 
 export default function Features() {
   return (
-    <section className="py-20 bg-white/50">
+    <section className="py-20 bg-white/50" id="#features">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">
-            Fonctionnalités Puissantes pour Votre Argent
+            Des Fonctionnalités Puissantes pour Votre Argent
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Tout ce dont vous avez besoin pour prendre le contrôle de votre argent mobile, conçu pour la simplicité et l'efficacité.
+            Tout ce dont vous avez besoin pour prendre le contrôle de votre
+            argent mobile, conçu pour la simplicité et l'efficacité.
           </p>
         </div>
 
