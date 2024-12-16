@@ -32,7 +32,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="relative">
-          <div className="relative z-10">
+          <div className="relative z-10 ml-28">
             <img
               src={molletAppScreenshot}
               alt="Interface de l'Application Mollet"
