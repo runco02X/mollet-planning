@@ -14,8 +14,10 @@ export default function Hero() {
       <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-5xl font-bold leading-tight mb-6">
-            Votre Gestionnaire d'Argent Mobile,{" "}
-            <span className="text-gradient">À Tout Moment, Partout</span>
+            Votre Assistant financier Mobile Money,{" "}
+            <span className="text-gradient">
+              À Tout Moment, Partout, Même Sans Connexion
+            </span>
           </h1>
           <p className="text-xl text-gray-600 mb-8">
             Simplifiez vos transactions Momo et gérez vos finances hors ligne
