@@ -2,10 +2,7 @@ import { Play } from "lucide-react";
 
 export default function CTA() {
   const handlePlayStoreClick = () => {
-    window.open(
-      "https://play.google.com/store/apps/details?id=com.mollet.app",
-      "_blank",
-    );
+    window.open("https://chat.whatsapp.com/Fp2VJTl2BzMCrdQrG3VU25", "_blank");
   };
 
   return (
@@ -15,12 +12,12 @@ export default function CTA() {
           Prêt à Simplifier Vos Finances Momo ?
         </h2>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          Rejoignez plus de 100 utilisateurs qui gèrent déjà mieux leur argent
+          Rejoignez plus de 150 utilisateurs qui gèrent déjà mieux leur argent
           mobile avec Mollet.
         </p>
         <button onClick={handlePlayStoreClick} className="btn-primary">
           <Play className="w-5 h-5" />
-          Bientôt sur PlayStore
+          Bientôt sur Android
         </button>
       </div>
     </section>
