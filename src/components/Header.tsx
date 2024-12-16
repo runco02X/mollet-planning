@@ -1,5 +1,4 @@
 import { Play } from "lucide-react";
-import React from "react";
 import MolletIcon from "../assets/mollet-icon.svg";
 
 export default function Header() {

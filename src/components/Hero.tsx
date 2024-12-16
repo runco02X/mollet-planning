@@ -2,12 +2,9 @@ import { Play, ChevronRight } from "lucide-react";
 import molletAppScreenshot from "../assets/mollet-app-screenshot-removebg.png";
 
 export default function Hero() {
-  // const handlePlayStoreClick = () => {
-  //   window.open(
-  //     "https://play.google.com/store/apps/details?id=com.mollet.app",
-  //     "_blank",
-  //   );
-  // };
+  const handlePlayStoreClick = () => {
+    window.open("https://chat.whatsapp.com/Fp2VJTl2BzMCrdQrG3VU25", "_blank");
+  };
 
   return (
     <section className="pt-32 pb-20">
@@ -24,7 +21,7 @@ export default function Hero() {
             facilement.
           </p>
           <div className="flex flex-wrap gap-4">
-            <button className="btn-primary">
+            <button className="btn-primary" onClick={handlePlayStoreClick}>
               Disponible bientôt sur Android <Play className="w-5 h-5" />
             </button>
             <a href="#features">
