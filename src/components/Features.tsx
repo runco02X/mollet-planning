@@ -27,6 +27,12 @@ const features = [
       "Accédez à toutes les fonctionnalités même sans connexion internet. Ne manquez plus rien.",
   },
   {
+    icon: <Wallet2 className="w-6 h-6" />,
+    title: "Tracking de vos budgets (Bientôt)",
+    description:
+      "Catégorisez vos dépenses facilement et retrouvez ce que vous dépensez au quotidien",
+  },
+  {
     icon: <HandCoins className="w-6 h-6" />,
     title: "Effectuez vos opérations mobile money (Bientôt)",
     description:
@@ -37,12 +43,6 @@ const features = [
     title: "Recherche Intelligente (Bientôt)",
     description:
       "Recherchez des numéros ou des noms et filtrez facilement vos transactions.",
-  },
-  {
-    icon: <Wallet2 className="w-6 h-6" />,
-    title: "Tracking de vos budgets (Bientôt)",
-    description:
-      "Catégorisez vos dépenses facilement et retrouvez ce que vous dépensez au quotidien",
   },
 ];
 
