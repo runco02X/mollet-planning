@@ -12,7 +12,7 @@ const features = [
     icon: <History className="w-6 h-6" />,
     title: "Historique des Transactions",
     description:
-      "Synchronisez et consultez automatiquement les transactions mobile money depuis vos SMS et autres notifications.",
+      "Synchronisez et consultez automatiquement les transactions mobile money  et leurs frais depuis vos SMS et autres notifications.",
   },
   {
     icon: <PieChart className="w-6 h-6" />,
