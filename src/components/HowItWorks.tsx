@@ -13,7 +13,8 @@ const steps = [
   {
     step: "03",
     title: "Suivez Hors Ligne",
-    description: "Continuez à gérer vos finances sans internet",
+    description:
+      "Continuez à gérer vos finances et faire vos opérations mobile money sans internet",
   },
 ];
 
