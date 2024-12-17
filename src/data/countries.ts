@@ -55,6 +55,10 @@ export const countries: Country[] = [
         name: "Orange Money",
         status: "Bientôt",
       },
+      {
+        name: "Moov CI",
+        status: "Bientôt",
+      },
     ],
   },
 ];
