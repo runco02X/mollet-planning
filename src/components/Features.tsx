@@ -41,8 +41,8 @@ export default function Features() {
             Gérez simplement vos finances
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Tout ce dont vous avez besoin pour prendre le contrôle de votre
-            argent mobile, conçu pour la simplicité et l'efficacité.
+            Mollet vous offre tout ce dont vous avez besoin pour suivre vos
+            transactions Mobile Money en toute simplicité et efficacité
           </p>
         </div>
 
