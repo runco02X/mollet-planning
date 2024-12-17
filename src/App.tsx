@@ -5,6 +5,7 @@ import HowItWorks from "./components/HowItWorks";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
 import CountrySupport from "./components/CountrySupport";
+import SocialProof from "./components/SocialProof";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       <Features />
       <CountrySupport />
       <HowItWorks />
+      <SocialProof />
       <CTA />
+
       <Footer />
     </div>
   );
