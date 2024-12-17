@@ -38,7 +38,7 @@ export default function Features() {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">
-            Des Fonctionnalités Puissantes pour Votre Argent
+            De puissantes fonctionnalités pour votre argent
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Tout ce dont vous avez besoin pour prendre le contrôle de votre

@@ -1,4 +1,4 @@
-import { Play, ChevronRight } from "lucide-react";
+import { Play } from "lucide-react";
 import molletAppScreenshot from "../assets/mollet-app-screenshot-removebg.png";
 
 export default function Hero() {
@@ -22,11 +22,6 @@ export default function Hero() {
             <button className="btn-primary" onClick={handlePlayStoreClick}>
               Rejoignez les testeurs sur Android <Play className="w-5 h-5" />
             </button>
-            <a href="#features">
-              <button className="btn-secondary">
-                En Savoir Plus <ChevronRight className="w-5 h-5" />
-              </button>
-            </a>
           </div>
         </div>
         <div className="relative">

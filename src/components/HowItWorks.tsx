@@ -23,7 +23,7 @@ export default function HowItWorks() {
     <section className="py-20">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-center mb-16">
-          Comment Ça Marche ?
+          Comment ça marche ?
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {steps.map((step, index) => (
