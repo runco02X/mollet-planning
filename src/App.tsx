@@ -4,6 +4,7 @@ import Features from "./components/Features";
 import HowItWorks from "./components/HowItWorks";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
+import CountrySupport from "./components/CountrySupport";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Features />
+      <CountrySupport />
       <HowItWorks />
       <CTA />
       <Footer />
