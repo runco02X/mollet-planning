@@ -17,7 +17,7 @@ export default function CTA() {
         </p>
         <button onClick={handlePlayStoreClick} className="btn-primary">
           <Play className="w-5 h-5" />
-          Bientôt sur Android
+          Rejoignez les testeurs sur Android
         </button>
       </div>
     </section>

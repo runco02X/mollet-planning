@@ -23,7 +23,7 @@ export default function Header() {
         >
           <button className="btn-primary">
             <Play className="w-5 h-5" />
-            Bientôt sur Android
+            Rejoignez les testeurs sur Android
           </button>
         </a>
       </nav>
