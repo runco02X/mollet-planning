@@ -23,7 +23,10 @@ export default function Header() {
         >
           <button className="btn-primary">
             <Play className="w-5 h-5" />
-            Rejoignez les testeurs sur Android
+            <span className="hidden md:inline">
+              Rejoignez les testeurs sur Android
+            </span>
+            <span className="md:hidden">Tester</span>
           </button>
         </a>
       </nav>
