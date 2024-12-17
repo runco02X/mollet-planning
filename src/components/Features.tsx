@@ -30,7 +30,7 @@ const features = [
     icon: <HandCoins className="w-6 h-6" />,
     title: "Effectuez vos opérations mobile money (Bientôt)",
     description:
-      "Faîtes vos dépôts, prenez vos forfaits, crédits et beaucoup plus directement grâce aux USSD depuis Mollet",
+      "Faîtes vos dépôts, prenez vos forfaits, crédits et beaucoup plus directement depuis Mollet",
   },
   {
     icon: <Search className="w-6 h-6" />,
