@@ -1,11 +1,18 @@
-import { History, PieChart, Search, Wifi } from "lucide-react";
+import {
+  HandCoins,
+  History,
+  PieChart,
+  Search,
+  Wallet2,
+  Wifi,
+} from "lucide-react";
 
 const features = [
   {
     icon: <History className="w-6 h-6" />,
     title: "Historique des Transactions",
     description:
-      "Synchronisez et consultez automatiquement les transactions MTN Benin Momo depuis les SMS.",
+      "Synchronisez et consultez automatiquement les transactions mobile money depuis vos SMS et autres notifications.",
   },
   {
     icon: <PieChart className="w-6 h-6" />,
@@ -20,12 +27,19 @@ const features = [
       "Accédez à toutes les fonctionnalités même sans connexion internet. Ne manquez plus rien.",
   },
   {
-    icon: <Search className="w-6 h-6" />,
-    title: "Recherche Intelligente (Bientôt)",
-    description: "Recherchez et filtrez facilement vos transactions.",
+    icon: <HandCoins className="w-6 h-6" />,
+    title: "Effectuez vos opérations mobile money (Bientôt)",
+    description:
+      "Faîtes vos dépôts, prenez vos forfaits, crédits, recharges et beaucoup plus directement depuis Mollet",
   },
   {
-    icon: <Wifi className="w-6 h-6" />,
+    icon: <Search className="w-6 h-6" />,
+    title: "Recherche Intelligente (Bientôt)",
+    description:
+      "Recherchez des numéros ou des noms et filtrez facilement vos transactions.",
+  },
+  {
+    icon: <Wallet2 className="w-6 h-6" />,
     title: "Tracking de vos budgets (Bientôt)",
     description:
       "Catégorisez vos dépenses facilement et retrouvez ce que vous dépensez au quotidien",
