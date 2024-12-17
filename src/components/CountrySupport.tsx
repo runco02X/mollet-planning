@@ -10,7 +10,7 @@ export default function CountrySupport() {
             Pays Disponibles
           </h2>
           <p className="text-xl text-gray-600">
-            Opérateurs supportés par chaque pays
+            Opérateurs supportés pour chaque pays
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function CountrySupport() {
                   >
                     <span className="text-gray-700">{operator.name}</span>
                     {operator.status === "Disponible" ? (
-                      <CheckCircle2 className="w-5 h-5 text-coral" />
+                      <CheckCircle2 className="w-5 h-5 text-[#1ABC9C]" />
                     ) : (
                       <div className="flex items-center gap-1 text-gray-400">
                         <Clock className="w-4 h-4" />
