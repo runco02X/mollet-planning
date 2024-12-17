@@ -9,14 +9,15 @@ const features = [
   },
   {
     icon: <PieChart className="w-6 h-6" />,
-    title: "Résumés Intelligents",
+    title: "Rapporst détails",
     description:
-      "Obtenez des aperçus détaillés hebdomadaires et mensuels de vos dépenses",
+      "Obtenez des aperçus détaillés hebdomadaires et mensuels de vos entrées, de vos dépenses et des frais associés",
   },
   {
     icon: <Wifi className="w-6 h-6" />,
     title: "Accès Hors Ligne",
-    description: "Accédez à toutes les fonctionnalités sans connexion internet",
+    description:
+      "Accédez à toutes les fonctionnalités même sans connexion internet. Ne manquez plus rien.",
   },
 ];
 

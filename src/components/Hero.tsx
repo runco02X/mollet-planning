@@ -12,13 +12,11 @@ export default function Hero() {
         <div>
           <h1 className="text-5xl font-bold leading-tight mb-6">
             Votre Assistant financier Mobile Money,{" "}
-            <span className="text-gradient">
-              À Tout Moment, Partout et Même Sans Connexion
-            </span>
+            <span className="text-gradient">à tout moment et partout</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-            Simplifiez vos transactions Momo et gérez vos finances hors ligne
-            facilement.
+            Suivez vos transactions Mobile Money et gérez vos finances
+            facilement même sans Internet{" "}
           </p>
           <div className="flex flex-wrap gap-4">
             <button className="btn-primary" onClick={handlePlayStoreClick}>

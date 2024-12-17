@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="text-2xl font-bold text-coral">Mollet</span>
             </div>
             <p className="text-gray-600">
-              Votre compagnon de confiance pour la gestion d'argent mobile.
+              Votre compagnon de confiance pour la gestion de vos finances.
             </p>
           </div>
           <div>
