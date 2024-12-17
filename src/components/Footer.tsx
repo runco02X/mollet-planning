@@ -31,6 +31,7 @@ export default function Footer() {
               <li>
                 <a
                   href="https://elikemmedehou.notion.site/Mollet-FAQ-15e2a95032fd8020b1b7c38941d4e13c?pvs=4"
+                  target="_blank"
                   className="hover:text-gold"
                 >
                   FAQ
@@ -44,6 +45,7 @@ export default function Footer() {
               <li>
                 <a
                   href="https://elikemmedehou.notion.site/Politique-de-Confidentialit-de-l-application-mobile-Mollet-13b2a95032fd80b6a320e9ca3ccbe02b?pvs=4"
+                  target="_blank"
                   className="hover:text-gold"
                 >
                   Politique de Confidentialité
@@ -52,6 +54,7 @@ export default function Footer() {
               <li>
                 <a
                   href="https://elikemmedehou.notion.site/Politique-de-Confidentialit-de-l-application-mobile-Mollet-13b2a95032fd80b6a320e9ca3ccbe02b?pvs=4"
+                  target="_blank"
                   className="hover:text-gold"
                 >
                   Conditions d'Utilisation
@@ -64,6 +67,7 @@ export default function Footer() {
             <div className="flex space-x-4">
               <a
                 href="https://x.com/Mollet_app"
+                target="_blank"
                 className="text-gray-600 hover:text-gold"
               >
                 <Twitter className="w-6 h-6" />
