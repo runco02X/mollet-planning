@@ -38,7 +38,7 @@ export default function Features() {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">
-            Gérez simplement vos finances
+            Gérez simplement vos finances mobile money
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Mollet vous offre tout ce dont vous avez besoin pour suivre vos
