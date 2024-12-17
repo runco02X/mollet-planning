@@ -13,7 +13,7 @@ export default function CTA() {
         </h2>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
           Rejoignez plus de 150 utilisateurs qui gèrent déjà mieux leur argent
-          mobile avec Mollet.
+          avec Mollet.
         </p>
         <button onClick={handlePlayStoreClick} className="btn-primary">
           <Play className="w-5 h-5" />
