@@ -1,4 +1,3 @@
-import { Play } from "lucide-react";
 import molletAppScreenshot from "../assets/mollet-app-screenshot.png";
 
 export default function Hero() {
@@ -21,12 +20,12 @@ export default function Hero() {
           </p>
           <div className="flex flex-wrap gap-4">
             <button className="btn-primary" onClick={handlePlayStoreClick}>
-              Rejoignez les testeurs sur Android <Play className="w-5 h-5" />
+              Rejoignez les testeurs sur Android
             </button>
           </div>
         </div>
-        <div className="relative">
-          <div className="relative z-10 ml-28 md:justify-center">
+        <div className="relative flex items-center justify-center lg:block">
+          <div className="relative z-10 lg:ml-28">
             <img
               src={molletAppScreenshot}
               alt="Interface de l'Application Mollet"

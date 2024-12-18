@@ -1,5 +1,3 @@
-import { Play } from "lucide-react";
-
 export default function CTA() {
   const handlePlayStoreClick = () => {
     window.open("https://chat.whatsapp.com/Fp2VJTl2BzMCrdQrG3VU25", "_blank");
@@ -16,7 +14,6 @@ export default function CTA() {
           avec Mollet.
         </p>
         <button onClick={handlePlayStoreClick} className="btn-primary">
-          <Play className="w-5 h-5" />
           Rejoignez les testeurs sur Android
         </button>
       </div>

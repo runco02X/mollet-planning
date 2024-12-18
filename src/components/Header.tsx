@@ -1,4 +1,3 @@
-import { Play } from "lucide-react";
 import MolletIcon from "../assets/mollet-icon.svg";
 
 export default function Header() {
@@ -22,7 +21,6 @@ export default function Header() {
           target="_blank"
         >
           <button className="btn-primary">
-            <Play className="w-5 h-5" />
             <span className="hidden md:inline">
               Rejoignez les testeurs sur Android
             </span>
