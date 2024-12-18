@@ -24,7 +24,7 @@ export const countries: Country[] = [
         status: "Disponible",
       },
       {
-        name: "Celtis",
+        name: "Celtiis",
         status: "Disponible",
       },
     ],
