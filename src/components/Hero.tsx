@@ -1,5 +1,5 @@
 import { Play } from "lucide-react";
-import molletAppScreenshot from "../assets/mollet-app-screenshot-removebg.png";
+import molletAppScreenshot from "../assets/mollet-app-screenshot.png";
 
 export default function Hero() {
   const handlePlayStoreClick = () => {
@@ -26,14 +26,12 @@ export default function Hero() {
           </div>
         </div>
         <div className="relative">
-          <div className="relative z-10 ml-28">
+          <div className="relative z-10 ml-28 md:justify-center">
             <img
               src={molletAppScreenshot}
               alt="Interface de l'Application Mollet"
-              className="rounded-3xl"
             />
           </div>
-          <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-r from-gold/30 via-coral/30 to-sage/30 blur-3xl rounded-full" />
         </div>
       </div>
     </section>

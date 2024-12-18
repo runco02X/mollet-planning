@@ -9,7 +9,7 @@ import SocialProof from "./components/SocialProof";
 
 function App() {
   return (
-    <div className="min-h-screen bg-cream">
+    <div className="bg-cream">
       <Header />
       <Hero />
       <Features />
