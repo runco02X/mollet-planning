@@ -10,8 +10,8 @@ export default function Hero() {
       <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-5xl font-bold leading-tight mb-6">
-            <span className="text-coral"> Mollet</span>, ton assistant financier
-            mobile money,{" "}
+            <span className="text-coral"> Mollet </span>, ton assistant
+            financier mobile money,{" "}
             <span className="text-gradient">à tout moment et partout</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8">
