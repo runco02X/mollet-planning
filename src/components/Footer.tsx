@@ -44,7 +44,7 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-600">
               <li>
                 <a
-                  href="https://elikemmedehou.notion.site/Politique-de-Confidentialit-de-l-application-mobile-Mollet-13b2a95032fd80b6a320e9ca3ccbe02b?pvs=4"
+                  href="https://elikemmedehou.notion.site/Mollet-Politique-de-Confidentialit-de-l-application-mobile-13b2a95032fd80b6a320e9ca3ccbe02b?pvs=4"
                   target="_blank"
                   className="hover:text-gold"
                 >
@@ -53,7 +53,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://elikemmedehou.notion.site/Politique-de-Confidentialit-de-l-application-mobile-Mollet-13b2a95032fd80b6a320e9ca3ccbe02b?pvs=4"
+                  href="https://elikemmedehou.notion.site/Mollet-Conditions-d-Utilisation-1612a95032fd8041b9b6d3fa9b0eb1c2?pvs=4"
                   target="_blank"
                   className="hover:text-gold"
                 >
