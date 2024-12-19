@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <img src={MolletIcon} className="w-8 h-8" />
+              <img src={MolletIcon} className="w-8 h-8" alt="Mollet Logo" />
               <span className="text-2xl font-bold text-coral">Mollet</span>
             </div>
             <p className="text-gray-600">

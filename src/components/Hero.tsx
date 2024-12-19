@@ -20,7 +20,7 @@ export default function Hero() {
           </p>
           <div className="flex flex-wrap gap-4">
             <button className="btn-primary" onClick={handlePlayStoreClick}>
-              Rejoignez les testeurs sur Android
+              Rejoins les testeurs sur Android
             </button>
           </div>
         </div>

@@ -10,11 +10,11 @@ export default function CTA() {
           Prêt à simplifier vos finances mobile money ?
         </h2>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          Rejoignez plus de 150 utilisateurs qui gèrent déjà mieux leur argent
+          Rejoins plus de 150 utilisateurs qui gèrent déjà mieux leur argent
           avec Mollet.
         </p>
         <button onClick={handlePlayStoreClick} className="btn-primary">
-          Rejoignez les testeurs sur Android
+          Rejoins les testeurs sur Android
         </button>
       </div>
     </section>

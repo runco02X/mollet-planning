@@ -12,8 +12,7 @@ export default function Header() {
     <header className="fixed w-full bg-cream/80 backdrop-blur-md z-50 border-b border-sage/20">
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <img src={MolletIcon} className="w-8 h-8" />
-
+          <img src={MolletIcon} className="w-8 h-8" alt="Mollet Logo" />
           <span className="text-2xl font-bold text-coral">Mollet</span>
         </div>
         <a
@@ -22,7 +21,7 @@ export default function Header() {
         >
           <button className="btn-primary">
             <span className="hidden md:inline">
-              Rejoignez les testeurs sur Android
+              Rejoins les testeurs sur Android
             </span>
             <span className="md:hidden">Tester</span>
           </button>
