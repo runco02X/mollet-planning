@@ -3,7 +3,7 @@ const steps = [
     step: "01",
     title: "Synchronisez les Transactions",
     description:
-      "Connectez votre téléphone pour synchroniser automatiquement les SMS et autres notifications Mobile Money",
+      "Connectez vous et synchroniser automatiquement les SMS et autres notifications Mobile Money présents sur votre Smartphone",
   },
   {
     step: "02",

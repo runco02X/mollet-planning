@@ -15,8 +15,8 @@ export default function Hero() {
             <span className="text-gradient">à tout moment et partout</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-            Suivez vos transactions Mobile Money en temps réel et gérez vos
-            finances sans effort, même hors ligne.{" "}
+            Suivez les transactions Mobile Money effectuées sur votre téléphone
+            en temps réel et gérez vos finances sans effort, même hors ligne.{" "}
           </p>
           <div className="flex flex-wrap gap-4">
             <button className="btn-primary" onClick={handlePlayStoreClick}>
