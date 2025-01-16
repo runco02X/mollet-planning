@@ -42,7 +42,7 @@ const features = [
     icon: <History className="w-6 h-6" />,
     title: "Historique des Transactions",
     description:
-      "Synchronisez et consultez automatiquement les transactions mobile money  et leurs frais depuis vos SMS et autres notifications.",
+      "Synchronisez et consultez automatiquement les transactions mobile money et leurs frais depuis vos SMS et autres notifications",
   },
   {
     icon: <PieChart className="w-6 h-6" />,
@@ -57,17 +57,18 @@ const features = [
       "Accédez à toutes les fonctionnalités même sans connexion internet. Ne manquez plus rien.",
   },
   {
+    icon: <HandCoins className="w-6 h-6" />,
+    title: "Effectuez vos opérations mobile money",
+    description:
+      "Faîtes vos dépôts, prenez vos forfaits, crédits et beaucoup plus directement depuis Mollet",
+  },
+  {
     icon: <Wallet2 className="w-6 h-6" />,
     title: "Tracking de vos budgets (Bientôt)",
     description:
       "Catégorisez vos dépenses facilement et retrouvez ce que vous dépensez au quotidien",
   },
-  {
-    icon: <HandCoins className="w-6 h-6" />,
-    title: "Effectuez vos opérations mobile money (Bientôt)",
-    description:
-      "Faîtes vos dépôts, prenez vos forfaits, crédits et beaucoup plus directement depuis Mollet",
-  },
+
   {
     icon: <Search className="w-6 h-6" />,
     title: "Recherche Intelligente (Bientôt)",
