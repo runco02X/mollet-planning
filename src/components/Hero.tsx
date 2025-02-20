@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-5xl font-bold leading-tight mb-6">
-            <span className="text-coral">Mollet</span>, toutes tes dépenses
+            <span className="text-coral">Mollet</span>, retrouve tes dépenses
             mobile money,{" "}
             <span className="text-gradient">partout et sans internet</span>
           </h1>
