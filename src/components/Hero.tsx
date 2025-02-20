@@ -29,12 +29,11 @@ export default function Hero() {
           </div>
         </div>
         <div className="relative flex items-center justify-center lg:block">
-          <div className="relative z-10 lg:ml-28">
-            <img
-              src={molletAppScreenshot}
-              alt="Interface de l'Application Mollet"
-            />
-          </div>
+          <img
+            src={molletAppScreenshot}
+            alt="Interface de l'Application Mollet"
+            className="w-max"
+          />
         </div>
       </div>
     </section>
