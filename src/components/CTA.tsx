@@ -1,8 +1,6 @@
-export default function CTA() {
-  const handlePlayStoreClick = () => {
-    window.open("https://chat.whatsapp.com/Fp2VJTl2BzMCrdQrG3VU25", "_blank");
-  };
+import playStoreBadge from "../assets/play-store-badge.png";
 
+export default function CTA() {
   return (
     <section className="py-20 bg-gradient-to-r from-gold/20 via-coral/20 to-sage/20">
       <div className="container mx-auto text-center">
@@ -13,9 +11,18 @@ export default function CTA() {
           Rejoins plus de 150 utilisateurs qui gèrent déjà mieux leur argent
           avec Mollet.
         </p>
-        <button onClick={handlePlayStoreClick} className="btn-primary">
-          Rejoins les testeurs sur Android
-        </button>
+        <div className="flex justify-center">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.thenemlab.mollet"
+            target="_blank"
+          >
+            <img
+              src={playStoreBadge}
+              alt="Télécharger sur le Play Store"
+              className="w-72"
+            />
+          </a>
+        </div>
       </div>
     </section>
   );
