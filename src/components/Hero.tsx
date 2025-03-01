@@ -7,13 +7,13 @@ export default function Hero() {
       <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-5xl font-bold leading-tight mb-6">
-            <span className="text-coral">Mollet</span>, retrouve tes dépenses
-            mobile money,{" "}
-            <span className="text-gradient">partout et sans internet</span>
+            <span className="text-coral">Mollet</span>, retrouvez vos dépenses
+            mobile money <span className="text-gradient">sans tracas</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 mt-8">
-            Suivez les transactions Mobile Money effectuées sur votre téléphone
-            en temps réel et gérez vos finances sans effort, même hors ligne.{" "}
+            • Trackez vos transactions Mobile Money en temps réel sans connexion
+            internet.
+            <br />• Gérez vos finances Mobile Money et en dehors{" "}
           </p>
           <div className="flex flex-wrap gap-4">
             <a
