@@ -10,10 +10,10 @@ export default function Hero() {
             <span className="text-coral">Mollet</span>, retrouvez vos dépenses
             mobile money <span className="text-gradient">sans tracas</span>
           </h1>
-          <p className="text-xl text-gray-600 mb-8 mt-8">
+          <p className="text-xl text-gray-600 mobilemb-8 mt-8">
             • Trackez vos transactions mobile money en temps réel sans connexion
             internet.
-            <br />• Gérez vos finances mobile money et en dehors{" "}
+            <br />• Gérez vos finances mobile money et en dehors.{" "}
           </p>
           <div className="flex flex-wrap gap-4">
             <a
