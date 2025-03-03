@@ -12,9 +12,9 @@ const steps = [
   },
   {
     step: "03",
-    title: "Accédez à vos dépenses mobile money sans connexion internet",
+    title: "Retrouvez vos dépenses même hors ligne",
     description:
-      "Retrouvez facilement vos dépenses mobile money sans connexion internet",
+      "Obtenez un accès simple à vos dépenses mobile money sans connexion internet",
   },
 ];
 

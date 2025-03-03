@@ -11,9 +11,9 @@ export default function Hero() {
             mobile money <span className="text-gradient">sans tracas</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 mt-8">
-            • Trackez vos transactions Mobile Money en temps réel sans connexion
+            • Trackez vos transactions mobile money en temps réel sans connexion
             internet.
-            <br />• Gérez vos finances Mobile Money et en dehors{" "}
+            <br />• Gérez vos finances mobile money et en dehors{" "}
           </p>
           <div className="flex flex-wrap gap-4">
             <a
