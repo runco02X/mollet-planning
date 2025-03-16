@@ -10,14 +10,18 @@ import SocialProof from "./components/SocialProof";
 function App() {
   return (
     <div className="bg-cream">
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:p-4 focus:bg-white focus:z-50">
+        Aller au contenu principal
+      </a>
       <Header />
-      <Hero />
-      <Features />
-      <CountrySupport />
-      <HowItWorks />
-      <SocialProof />
-      <CTA />
-
+      <main id="main-content">
+        <Hero />
+        <Features />
+        <CountrySupport />
+        <HowItWorks />
+        <SocialProof />
+        <CTA />
+      </main>
       <Footer />
     </div>
   );

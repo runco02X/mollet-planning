@@ -1,64 +1,85 @@
 <!doctype html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/icon.svg" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
-            rel="stylesheet"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Mollet - Retrouvez vos dépenses Mobile Money sans tracas</title>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta
-            name="description"
-            content="Mollet vous permet de suivre et gérer vos transactions mobile money en temps réel, même sans connexion internet. Obtenez des rapports détaillés et maîtrisez vos finances facilement."
-        />
+    <title>Mollet - Retrouvez vos dépenses Mobile Money sans tracas</title>
 
-        <meta
-            name="keywords"
-            content="Mollet, Mobile Money, gestion finances, MTN, Moov, Celtis, Orange, Wave, offline, transactions, budget, suivi dépenses, application mobile"
-        />
+    <meta name="description"
+        content="Mollet vous permet de suivre et gérer vos transactions mobile money en temps réel, même sans connexion internet. Trackez MTN, Moov, Orange, Wave et autres opérateurs avec des rapports détaillés pour maîtriser vos finances facilement." />
 
-        <link rel="canonical" href="https://www.mollet.live" />
+    <meta name="keywords"
+        content="Mollet, Mobile Money, gestion finances, MTN, Moov, Celtis, Orange, Wave, offline, transactions mobile, budget, suivi dépenses, application mobile, Afrique, finance personnelle" />
+        
+    <meta name="author" content="The NEM Lab" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="French" />
 
-        <meta
-            property="og:title"
-            content="Mollet, Mobile Money, gestion finances, MTN, Moov, Celtis, Orange, Wave, offline, transactions, budget, suivi dépenses, application mobile"
-        />
-        <meta
-            property="og:description"
-            content="Mollet vous permet de suivre et gérer vos transactions mobile money en temps réel, même sans connexion internet. Obtenez des rapports détaillés et maîtrisez vos finances facilement."
-        />
-        <meta property="og:image" content="/icon.svg" />
-        <meta property="og:url" content="https://www.mollet.live" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:name" content="@Mollet_app" />
+    <link rel="canonical" href="https://www.mollet.live" />
 
-        <meta
-            name="twitter:title"
-            content="Mollet - Gérez en temps réel vos finances Mobile Money en toute simplicité"
-        />
-        <meta
-            name="twitter:description"
-            content="Mollet vous permet de suivre et gérer vos transactions mobile money en temps réel, même sans connexion internet. Obtenez des rapports détaillés et maîtrisez vos finances facilement."
-        />
-        <meta name="twitter:image" content="/icon.svg" />
-    </head>
-    <body>
-        <div id="root"></div>
-        <script type="module" src="/src/main.tsx"></script>
-    </body>
+    <meta property="og:title"
+        content="Mollet - Retrouvez vos dépenses Mobile Money sans tracas" />
+    <meta property="og:description"
+        content="Mollet vous permet de suivre et gérer vos transactions mobile money en temps réel, même sans connexion internet. Obtenez des rapports détaillés et maîtrisez vos finances facilement." />
+    <meta property="og:image" content="https://www.mollet.live/mollet-app-preview.png" />
+    <meta property="og:image:alt" content="Interface de l'application Mollet pour la gestion de Mobile Money" />
+    <meta property="og:url" content="https://www.mollet.live" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:name" content="@Mollet_app" />
 
-    <script>
-        !(function (t, e) {
-            var o, n, p, r;
-            e.__SV ||
-                ((window.posthog = e),
+    <meta name="twitter:title" content="Mollet - Gérez en temps réel vos finances Mobile Money en toute simplicité" />
+    <meta name="twitter:description"
+        content="Mollet vous permet de suivre et gérer vos transactions mobile money en temps réel, même sans connexion internet. Obtenez des rapports détaillés et maîtrisez vos finances facilement." />
+    <meta name="twitter:image" content="https://www.mollet.live/mollet-app-preview.png" />
+    <meta name="twitter:image:alt" content="Interface de l'application Mollet pour la gestion de Mobile Money" />
+    <!-- Structured data for rich results -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Mollet",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Android",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "XOF"
+      },
+      "description": "Application de gestion et suivi des transactions mobile money en temps réel, même sans connexion internet.",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "120"
+      }
+    }
+    </script>
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/src/assets/mollet-icon.svg" as="image" type="image/svg+xml" />
+    
+    <!-- Mobile app capability -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+</body>
+
+<script>
+    !(function (t, e) {
+        var o, n, p, r;
+        e.__SV ||
+            ((window.posthog = e),
                 (e._i = []),
                 (e.init = function (i, s, a) {
                     function g(t, e) {
@@ -90,23 +111,23 @@
                     var u = e;
                     for (
                         void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
-                            u.people = u.people || [],
-                            u.toString = function (t) {
-                                var e = "posthog";
-                                return (
-                                    "posthog" !== a && (e += "." + a),
-                                    t || (e += " (stub)"),
-                                    e
-                                );
-                            },
-                            u.people.toString = function () {
-                                return u.toString(1) + ".people (stub)";
-                            },
-                            o =
-                                "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(
-                                    " ",
-                                ),
-                            n = 0;
+                        u.people = u.people || [],
+                        u.toString = function (t) {
+                            var e = "posthog";
+                            return (
+                                "posthog" !== a && (e += "." + a),
+                                t || (e += " (stub)"),
+                                e
+                            );
+                        },
+                        u.people.toString = function () {
+                            return u.toString(1) + ".people (stub)";
+                        },
+                        o =
+                        "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(
+                            " ",
+                        ),
+                        n = 0;
                         n < o.length;
                         n++
                     )
@@ -114,10 +135,11 @@
                     e._i.push([i, s, a]);
                 }),
                 (e.__SV = 1));
-        })(document, window.posthog || []);
-        posthog.init("phc_Pbrtc0R85dcP708FAI6i929EiGQ0VQMXP3YAksRlJ28", {
-            api_host: "https://us.i.posthog.com",
-            person_profiles: "always",
-        });
-    </script>
+    })(document, window.posthog || []);
+    posthog.init("phc_Pbrtc0R85dcP708FAI6i929EiGQ0VQMXP3YAksRlJ28", {
+        api_host: "https://us.i.posthog.com",
+        person_profiles: "always",
+    });
+</script>
+
 </html>
